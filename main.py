@@ -128,7 +128,7 @@ class QAResponse(BaseModel):
     answer: str
     links: List[Dict[str, Any]]
 
-@app.post("/api/ta", response_model=QAResponse)
+@app.post("/api", response_model=QAResponse)
 async def qa_endpoint(payload: QARequest):
     start = time.time()
     
