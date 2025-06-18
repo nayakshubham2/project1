@@ -8,3 +8,4 @@ requests==2.32.4
 pillow==11.2.1
 python-multipart==0.0.20
 html2text==2025.4.15
+pytesseract
