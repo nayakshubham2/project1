@@ -23,7 +23,7 @@ class Query(BaseModel):
 
 @app.post("/api/")
 async def answer_query(query: Query):
-    # Decode image (optional)
+   
     if query.image:
         image_bytes = base64.b64decode(query.image)
         # OCR logic here (e.g. pytesseract)
