@@ -1,0 +1,9 @@
+fastapi
+numpy
+openai
+pillow
+pytesseract
+python-dateutil
+requests
+uvicorn
+pydantic
